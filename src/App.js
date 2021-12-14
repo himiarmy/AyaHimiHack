@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import ProductsList from "./components/ProductsList/ProductsList";
 import ProductsContextProvider from "./contexts/productsContext";
+import AuthContextProvider from "./contexts/authContext";
 
 const App = () => {
   let routes = [
@@ -20,17 +21,19 @@ const App = () => {
     },
   ];
   return (
-    <ProductsContextProvider>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          {routes.map((item) => (
-            <Route path={item.link} element={item.element} />
-          ))}
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </ProductsContextProvider>
+    <AuthContextProvider>
+      <ProductsContextProvider>
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            {routes.map((item) => (
+              <Route path={item.link} element={item.element} />
+            ))}
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </ProductsContextProvider>
+    </AuthContextProvider>
   );
 };
 
