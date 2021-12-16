@@ -1,11 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Auth from "./components/Auth/Auth";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import ProductsList from "./components/ProductsList/ProductsList";
 import ProductsContextProvider from "./contexts/productsContext";
 import AuthContextProvider from "./contexts/authContext";
+
+import "./App.css";
 
 const App = () => {
   let routes = [
@@ -18,6 +22,11 @@ const App = () => {
       link: "/products",
       element: <ProductsList />,
       id: 2,
+    },
+    {
+      link: "/auth",
+      element: <Auth />,
+      id: 3,
     },
   ];
   return (
