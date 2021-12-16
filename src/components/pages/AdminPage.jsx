@@ -1,14 +1,14 @@
 import React from "react";
 import { Row, Col } from "antd";
 
-import AddBrandModal from "../components/AddBrandModal/AddBrandModal";
-import AddProductModal from "../components/AddProductModal/AddProductModal";
-import AdminBrandsList from "../components/AdminBrandsList/AdminBrandsList";
-import AdminProductsList from "../components/AdminProductsList/AdminProductsList";
+import AddBrandModal from "../AddBrandModal/AddBrandModal";
+import AddProductModal from "../AddProductModal/AddProductModal";
+import AdminBrandsList from "../AdminBrandsList/AdminBrandsList";
+import AdminProductsList from "../AdminProductsList/AdminProductsList";
 
 const AdminPage = () => {
   return (
-    <div className="container" style={{ marginTop: "15px" }}>
+    <div className="container" style={{ marginTop: "17vh" }}>
       <Row>
         <Col span={12}>
           <Col span={22}>

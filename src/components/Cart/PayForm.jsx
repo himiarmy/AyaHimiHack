@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Cards from "react-credit-cards";
-import { Form, Input, Select, Button, Space } from "antd";
+import Cards from "react-credit-card";
+import { Form, Input, Select, Button } from "antd";
 import { useNavigate } from "react-router";
-import "react-credit-cards/es/styles-compiled.css";
+// import "react-credit-card/es/styles-compiled.css";
 
 const { Option } = Select;
 
@@ -11,7 +11,7 @@ const PayForm = () => {
 
   const onFinish = (values) => {
     console.log("Received values of form: ", values);
-    navigate("/payment");
+    navigate("/paym");
   };
   //   payment
 

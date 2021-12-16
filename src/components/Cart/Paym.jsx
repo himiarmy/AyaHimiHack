@@ -3,7 +3,7 @@ import { Result, Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { cartContext } from '../../contexts/cartContext';
 
-const Payment = () => {
+const Paym = () => {
   const { getCart, cart } = useContext(cartContext);
   useEffect(() => {
     getCart();
@@ -23,4 +23,4 @@ const Payment = () => {
     );
 };
 
-export default Payment;
+export default Paym;
