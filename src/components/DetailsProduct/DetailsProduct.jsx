@@ -1,9 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router";
 
-import { Carousel, Button } from "antd";
+import { Carousel, Button} from "antd";
 
 import { productsContext } from "../../contexts/productsContext";
+import { cartContext } from "../../contexts/cartContext";
 
 const DetailsProduct = () => {
   const { id } = useParams();
@@ -15,13 +16,20 @@ const DetailsProduct = () => {
   useEffect(() => {
     setProduct(oneProduct);
   }, [oneProduct]);
+  // cart 
+  const { addProductToCart, checkItemInCart } = useContext(cartContext);
+  const [checkInCart, setCheckInCart] = useState(checkItemInCart(id));
+  useEffect(() => {
+    setCheckInCart(checkItemInCart(id))
+  })
   return (
-    <div className="container" style={{ marginTop: "20px" }}>
-      {product ? (
+    <div className="container" style={{ marginTop: "23vh" }}>
+      { product? (
         <>
           <div
             style={{
               display: "flex",
+              flexWrap: "wrap",
               justifyContent: "space-between",
               alignItems: "center",
               marginBottom: "20px",
@@ -38,19 +46,24 @@ const DetailsProduct = () => {
               </Carousel>
             </div>
             <div style={{ width: "40vw" }}>
-              <h2>{product.brand}</h2>
-              <h3>{product.model}</h3>
-              <h2>{product.price}</h2>
+              <h1>{product.model}</h1>
+              <h6>{product.brand}</h6>
+              <h4 style={{color: "red"}} >{"$" + product.price}</h4>
               <Button
                 size="large"
-                style={{ margin: "15px 0px", width: "100%" }}
+                // style={{ margin: "15px 0px", width: "100%" }}
+                style={{ color: checkInCart ? "red" : "black"}}
+                onClick={() => {
+                      addProductToCart(product);
+                      setCheckInCart(checkItemInCart(id)) 
+                  }
+                }
               >
                 ADD TO CART
               </Button>
-              <div>{product.description}</div>
+              <h3>{product.description}</h3>
             </div>
           </div>
-          <video src={product.video} width="100%" autoPlay loop muted></video>
         </>
       ) : (
         <h2>Loading...</h2>
