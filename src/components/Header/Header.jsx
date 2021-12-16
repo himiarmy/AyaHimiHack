@@ -155,7 +155,7 @@ const Header = ({ handleLogout }) => {
       expand="lg"
       fixed="top"
       style={{
-        backgroundColor: "rgba(0,0,0,0.3)",
+        backgroundColor: "rgba(0,0,0,0.5)",
       }}
     >
       <Container>
