@@ -15,8 +15,8 @@ import { ButtonBase } from "@mui/material";
 import { Button } from "antd";
 import { useAuth } from "../../contexts/authContext";
 
-import LoginModal from "../Auth/LoginModal";
-import AuthModal from "../Auth/AuthModal";
+import Login from "../Auth/Login";
+import Auth from "../Auth/Auth";
 import { Link } from "react-router-dom";
 import { cartContext } from "../../contexts/cartContext";
 import { favoritesContext } from "../../contexts/favoritesContext";
@@ -111,8 +111,8 @@ const Header = ({ handleLogout }) => {
             Sign In{" "}
           </MenuItem>
 
-          <LoginModal show={modalShow} onHide={() => setModalShow(false)} />
-          <AuthModal
+          <Login show={modalShow} onHide={() => setModalShow(false)} />
+          <Auth
             show={modalShowRes}
             onHide={() => setModalShowRes(false)}
           />

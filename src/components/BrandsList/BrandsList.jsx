@@ -16,13 +16,13 @@ const BrandsList = () => {
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "center",
-        marginTop: "20px",
+        marginTop: "17vh",
       }}
     >
       {brands.map((item) => (
         <Card
           hoverable
-          style={{ width: "240px", height: "240px", margin: "10px" }}
+          style={{ width: "240px", height: "240px", margin: "10vh 10px" }}
           cover={<img alt="example" src={item.logo} />}
         />
       ))}
