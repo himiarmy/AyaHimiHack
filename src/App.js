@@ -1,48 +1,26 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+    
+import { BrowserRouter } from "react-router-dom";
+import BrandsContextProvider from "./contexts/brandsContext";
 
-import Auth from "./components/Auth/Auth";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
-import ProductsList from "./components/ProductsList/ProductsList";
+import Routing from "./Routing";
+
+import "antd/dist/antd.css";
 import ProductsContextProvider from "./contexts/productsContext";
-import AuthContextProvider from "./contexts/authContext";
-
-import "./App.css";
+import { Footer, Header } from "antd/lib/layout/layout";
 
 const App = () => {
-  let routes = [
-    {
-      link: "/",
-      element: <Home />,
-      id: 1,
-    },
-    {
-      link: "/products",
-      element: <ProductsList />,
-      id: 2,
-    },
-    {
-      link: "/auth",
-      element: <Auth />,
-      id: 3,
-    },
-  ];
+  
+
   return (
-    <AuthContextProvider>
-      <ProductsContextProvider>
-        <BrowserRouter>
-          <Header />
-          <Routes>
-            {routes.map((item) => (
-              <Route path={item.link} element={item.element} />
-            ))}
-          </Routes>
-          <Footer />
-        </BrowserRouter>
-      </ProductsContextProvider>
-    </AuthContextProvider>
+    <BrandsContextProvider>
+        <ProductsContextProvider>
+          <BrowserRouter>
+            <Header />
+            <Routing />
+            <Footer />
+          </BrowserRouter>
+        </ProductsContextProvider>
+      </BrandsContextProvider>
   );
 };
 
