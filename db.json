@@ -1,0 +1,239 @@
+{
+    "products": [
+      {
+        "brand": "Skyline Furniture",
+        "model": "Bed",
+        "description": "This upholstered wingback bed gives any bedroom a modern and contemporary look. Featuring velvet upholstery, diamond tufts and beautiful nail head trim. This bed is handcrafted in soft foam padding for extra support and comfort. Bed frame and matching upholstered rails are included. Spot Clean only. Easy assembly required.",
+        "price": 147,
+        "image1": "https://st.hzcdn.com/simgs/3c4189e30dfa924d_9-4061/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/29c1c7c707bcd2c9_9-4072/home-design.jpg",
+        "video": "#",
+        "id": 1
+      },
+      {
+        "brand": "Walker Edison",
+        "model": "Bed",
+        "description": "Elevate your bedroom with this queen size bed to give your sleeping space a rustic industrial feel. Bold metal borders the headboard and footboard, along with small, round grooved details to contrast beautifully next to the wood looking centers. This bed frame is made of durable high-grade MDF, with metal having a powder-coated finish. This mixed medium bed frame will create the perfect modern farmhouse style statement in your bedroom while complimenting your decor.",
+        "price": 269,
+        "image1": "https://st.hzcdn.com/simgs/71112cea01afdf7a_9-9123/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/fc9156d601afdf7f_9-9152/home-design.jpg",
+        "video": "#",
+        "id": 2
+      },
+      {
+        "brand": "Skyline Furniture",
+        "model": "Bed",
+        "description": "This Lianson canopy bed will surely be the centerpiece to your bedroom. This canopy bed features a tufted velvet upholstery with silver stainless steel frame. The bed comes in 3 different colors - Black, Blue or Gray.",
+        "price": 749,
+        "image1": "https://st.hzcdn.com/simgs/24719dc800f26103_9-0511/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/50f17e0a00f26103_9-0511/home-design.jpg",
+        "video": "#",
+        "id": 3
+      },
+      {
+        "brand": "Homary",
+        "model": "Bathroom",
+        "description": "The elegant simplicity of Shaker-style furniture inspires the edgy, neo-traditional design of the Tresham collection. The Tresham Comfort-Height(R) two-piece elongated toilet is accented by an elegant trim that recalls architectural molding and offers an eclectic twist on classic Americana traditions. Complements the Tresham collection as well as a variety of styles from classic to modern.",
+        "price": 185,
+        "image1": "https://st.hzcdn.com/simgs/41411cf80efef1bc_9-7331/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/35412b600efeeca7_9-7331/home-design.jpg",
+        "id": 4
+      },
+      {
+        "brand": "Jennifer Taylor Home",
+        "model": "Sofa",
+        "description": "For a bold, modern statement to your living room decor, look to the Jack Seating Collection by Jennifer Taylor Home. The traditional Tuxedo silhouette gets a modern makeover in this perfectly square button tufted design, with tapered wood legs and a geometric silhouette reminiscent of the Chesterfield style. The medium-firm seat cushions are completely removable and reversible, and are set off stylishly with two accent bolster pillows. Whether you're relaxing with your favorite book in the family room or entertaining guests, the Jack Seating Collection can fill any living situation with the matching set of sectional, sofa, loveseat, and arm chair available.",
+        "price": 351,
+        "image1": "https://st.hzcdn.com/simgs/0ec1e6f40f2990c0_9-5644/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/489134ef0d83b732_9-5644/home-design.jpg",
+        "id": 5
+      },
+      {
+        "brand": "Jennifer Taylor Home",
+        "model": "Sofa",
+        "description": "For a bold, modern statement to your living room decor, look to the Jack Seating Collection by Jennifer Taylor Home. The traditional Tuxedo silhouette gets a modern makeover in this perfectly square button tufted design, with tapered wood legs and a geometric silhouette reminiscent of the Chesterfield style. The medium-firm seat cushions are completely removable and reversible, and are set off stylishly with two accent bolster pillows. Whether you're relaxing with your favorite book in the family room or entertaining guests, the Jack Seating Collection can fill any living situation with the matching set of sectional, sofa, loveseat, and arm chair available.",
+        "price": 365,
+        "image1": "https://st.hzcdn.com/simgs/b9e193360f2990ee_4-5643/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/6b81590a0d83b766_4-5643/home-design.jpg",
+        "id": 6
+      },
+      {
+        "brand": "Meridian",
+        "model": "Sofa",
+        "description": "Decorative statements don't come much more grand the Lucas Velvet Sofa. An ideal blend of traditional design and modern details, it features tufted velvet upholstery, nailhead trim and clear acrylic legs. This versatile couch can be used to complement the other pieces in your space or stand on its own as the stunning centerpiece of your living room.",
+        "price": 246,
+        "image1": "https://st.hzcdn.com/simgs/9971aebc08657182_9-3133/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/7df1929808657156_9-3067/home-design.jpg",
+        "video": "#",
+        "id": 7
+      },
+      {
+        "brand": "Virtu",
+        "model": "Bathroom",
+        "description": "Go for classic in the guest bath with the sleek silhouette of the Caroline Single Vanity. Equal parts practical and stylish, the Caroline features generous storage that offers plenty of concealed space for toiletries, spare linens and other washroom necessities. This vanity is a piece that's made with timeless style and exceptional materials so it stands the test of time to grow with your design.",
+        "price": 498,
+        "image1": "https://st.hzcdn.com/simgs/a921de7b00c7855d_9-7161/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/07c15d9100c7855f_9-9763/home-design.jpg",
+        "video": "#",
+        "id": 8
+      },
+      {
+        "brand": "VIGO",
+        "model": "Bathroom",
+        "description": "Create the modern bathroom of your dreams with the clean lines of the VIGO Monteray Frameless Shower Enclosure. Solid 3/8 in. tempered glass combined with stainless steel and solid brass construction makes this enclosure strong and long-lasting. The sleek, outward-opening door features a convenient towel bar. With a single water deflector along the bottom seal strip, water is redirected back into the shower to keep your bathroom dry, clean, and pristine. This model comes complete with an easy-to-clean, right-draining, white shower base.",
+        "price": 1954,
+        "image1": "https://st.hzcdn.com/simgs/4e715ffb01817d63_9-4337/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/7271ceac01817d59_9-4337/home-design.jpg",
+        "video": "#",
+        "id": 9
+      },
+      {
+        "brand": "Meridian",
+        "model": "Sofa",
+        "description": "A furniture classic, this elegant Chesterfield Velvet Sofa features rolled arms, a button-tufted back and solid wooden bun feet. The comfortable seat cushions are filled with high-density foam and the piece is upholstered in a sophisticated gray linen fabric. Drawing on a diverse range of furniture and design traditions, Meridian Furniture offers classic pieces with a timeless character. The company relies on expert craftsmanship and fine natural materials to guarantee aesthetically pleasing and long-lasting products.",
+        "price": 219,
+        "image1": "https://st.hzcdn.com/simgs/d421769507bce5a6_9-2887/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/8c01695b07bce5a3_9-2497/home-design.jpg",
+        "video": "#",
+        "id": 10
+      },
+      {
+        "brand": "Armen Living",
+        "model": "Sofa",
+        "description": "The Armen Living Cambridge contemporary sofa is an ideal piece to have in any modern living room. This exquisite sofa combines the durability of a metal and birch wood frame with the comfort and sophistication of elegant velvet upholstery. Plush and inviting, the Cambridge couch features a unique channel patterned back and two velvet throw pillows for enhanced support. The Cambridge's brushed stainless steel legs perfectly accent the rich upholstery and elegant design of the sofa. Pair the Cambridge sofa with the Cambridge loveseat and chair to create a unique living room aesthetic. The Cambridge is available in beautiful dark Gray velvet.",
+        "price": 369,
+        "image1": "https://st.hzcdn.com/simgs/106115530a58d13e_9-0175/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/67f1052c0a58d13a_9-4998/home-design.jpg",
+        "id": 11
+      },
+      {
+        "brand": "Ancerre",
+        "model": "Bathroom",
+        "description": "A transitional look with traditional roots. The Maili collection pay homage to American craftsman style. From selecting quality wood and using the most durable soft-close hardware, no details were overlooked in crafting the Maili 60 in. vanity set. The vanity set includes a furniture style cabinet, imported Italian Cararra white marble top with a 4 in. Backsplash, wide rectangular under mount basin, solid wood dovetailed drawer boxes, soft-close doors & drawers and brushed nickel hardware. Complete the look with our mirrors which are sold separately (M-24-SG).",
+        "price": 574,
+        "image1": "https://st.hzcdn.com/simgs/497163b50b96a823_9-2398/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/86f1652d0b96a82c_9-0729/home-design.jpg",
+        "video": "#",
+        "id": 12
+      },
+      {
+        "brand": "JNM",
+        "model": "Bed",
+        "description": "The Florence bed speaks volumes through simplistic details. The modern design made with artistic array of angles features a beautiful white & light grey lacquer finish & a elegant leatherette headboard.",
+        "price": 437,
+        "image1": "https://st.hzcdn.com/simgs/ea11c09e04fef3af_9-3374/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/4151e27204fef3b2_9-3374/home-design.jpg",
+        "id": 13
+      },
+      {
+        "brand": "Vig",
+        "model": "Armchair",
+        "description": "A beautiful, comfortable velvet chair that blends modern design and classic style. Upholstered in soft gray velvet, this sumptuous chair is wonderful to touch and use. The subtle gray color brings the tufted backrestto life, not only showing a classic touch for this modern chair, but also allowing the velvet to show off the full depth of its shade and light as the pattern flows along the backrest.Contrasting the gray nicely, the gold stainless-steel legs rise up the front to provide the square, modern design that works so well. Supplied fully assembled, this is a beautiful gray chair that will look great in your living space.",
+        "price": 78,
+        "image1": "https://st.hzcdn.com/simgs/98a1030d0d53d675_9-1510/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/b351b0930d53d646_9-1510/home-design.jpg",
+        "id": 14
+      },
+      {
+        "brand": "Swiss Madison",
+        "model": "Bathroom ",
+        "description": "The Unique Craftsmanship of the Plaisir® Wall hung toilet will enhance any bathroom, making an everlasting design statement. The Carrier Tank is completely concealed, still offering simple access to the plumbing system through the actuator plate. The most sleek and seamless design, that is incredibly easy to clean.",
+        "price": 217,
+        "image1": "https://st.hzcdn.com/simgs/68010dea0d83cd50_9-4956/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/9d617406001abfaf_9-4956/home-design.jpg",
+        "id": 15,
+        "video": "#"
+      },
+      {
+        "brand": "Picket House",
+        "model": "Armchair",
+        "description": "The Picket House Furnishings Teagan Accent Chair is the piece you've been missing. This chair will add instant glamour to your living room.",
+        "price": 102,
+        "image1": "https://st.hzcdn.com/simgs/fbe1699909e7a5b0_9-9966/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/2ea17b2d09e7a5b1_9-9966/home-design.jpg",
+        "id": 16
+      },
+      {
+        "brand": "Florence",
+        "model": "Bathroom",
+        "description": "Get more than a washing station out of your vanity with the Florence Double Vanity. White Carrara marble, grid-patterned drawers and satin nickel knobs anchor this piece in sophisticated, traditional style. With oak construction and clean lines, the Florence offers an elegant workstation and centerpiece.",
+        "price": 199,
+        "image1": "https://st.hzcdn.com/simgs/01a109b2009c460f_9-4827/home-design.jpg",
+        "image2": "https://st.hzcdn.com/simgs/cc01a45d009c4613_9-4841/home-design.jpg",
+        "id": 17
+      }
+    ],
+    "brands": [
+      {
+        "brand": "Skyline Furniture",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQEzcSBAcuhB9A/company-logo_200_200/0/1519885008732?e=2159024400&v=beta&t=zCc3G1DfpYoiqvnDmnCEmx5dpGeXTLGOpM3MJqw3-AY",
+        "id": 18
+      },
+      {
+        "brand": "Walker Edison",
+        "logo": "http://www.logo-designer.co/wp-content/uploads/2020/10/2020-furniture-company-walker-edison-new-logo-design-2.png",
+        "id": 19
+      },
+      {
+        "brand": "VIGO",
+        "logo": "https://thetoiletzone.com/wp-content/uploads/2019/11/Vigo-brand-review-.jpg",
+        "id": 27
+      },
+      {
+        "brand": "Meridian",
+        "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/374201112720949.Y3JvcCw4MDgsNjMyLDAsMA.jpg",
+        "id": 28
+      },
+      {
+        "brand": "Ancerre",
+        "logo": "https://st.hzcdn.com/fimgs/61b3891204eab038_3930-w173-h173-b0-p0--_.jpg",
+        "id": 29
+      },
+      {
+        "brand": "Virtu",
+        "logo": "https://alladvertising.ru/porridge/83/101/34195d4be0808f2584500161fb742d5b",
+        "id": 30
+      },
+      {
+        "brand": "Jennifer Taylor Home",
+        "logo": "http://jennifertaylor.me/wp-content/uploads/2021/01/jennifer-taylor-logo1biggreen.png",
+        "id": 33
+      },
+      {
+        "brand": "Homary",
+        "logo": "https://secure.img1-fg.wfcdn.com/im/89642085/resize-h600-w600%5Ecompr-r85/1262/126261505/Homary.jpg",
+        "id": 34
+      },
+      {
+        "brand": "Armen Living",
+        "logo": "https://s3.amazonaws.com/imcprodva/cms/prod/exhibitor_portal/logo_directory_detail/exhibitorlogo_8_65598_20150608115244-ArmenLivingLogo-Stacked-1.jpg",
+        "id": 35
+      },
+      {
+        "brand": "Swiss Madison",
+        "logo": "https://secure.img1-fg.wfcdn.com/im/14279339/compr-r85/3685/36855479/swiss-madison.jpg",
+        "id": 36
+      },
+      {
+        "brand": "VIG",
+        "logo": "https://brandtld.news/wp-content/uploads/2020/02/logo-vig.jpg",
+        "id": 37
+      },
+      {
+        "brand": "Florence",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmE3erbAt4cYmtZd1jkDJHlaK_pFd3Icypvw&usqp=CAU",
+        "id": 38
+      },
+      {
+        "brand": "Picker House",
+        "logo": "https://images-platform.99static.com/qtTTtSqmFryycvWMwhiNo5bNDX4=/500x500/top/smart/99designs-contests-attachments/27/27881/attachment_27881914",
+        "id": 39
+      },
+      {
+        "brand": "JNM",
+        "logo": "https://cdn.shopify.com/s/files/1/0116/2061/4202/files/JNM_Logo_Black_with_Tag-01_1043x.png?v=1612456196",
+        "id": 40
+      }
+    ]
+  }
+  
