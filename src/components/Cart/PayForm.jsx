@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Cards from "react-credit-card";
+// import Cards from "react-credit-card";
 import { Form, Input, Select, Button } from "antd";
 import { useNavigate } from "react-router";
 // import "react-credit-card/es/styles-compiled.css";
@@ -52,16 +52,16 @@ const PayForm = () => {
   };
   return (
     <>
-      <Cards
-        style={{marginBottom: "1%"}}
+      {/* <Cards
+        style={{marginBottom: "20vh"}}
         cvc={state.cvc}
         expiry={state.expiry}
         focused={state.focus}
         name={state.name}
         number={state.number}
-      />
+      /> */}
       <Form
-        style={{ marginTop: "1%" }}
+        style={{ marginTop: "20vh" }}
         name="complex-form"
         onFinish={onFinish}
         labelCol={{ span: 4 }}

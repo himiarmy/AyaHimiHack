@@ -23,8 +23,6 @@ import { favoritesContext } from "../../contexts/favoritesContext";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { BookmarkBorder } from "@mui/icons-material";
 
-// import { ADMIN } from "../../helpers/consts";
-
 const Header = ({ handleLogout }) => {
   const { getCart, cartLength } = React.useContext(cartContext);
   useEffect(() => {
@@ -83,9 +81,6 @@ const Header = ({ handleLogout }) => {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      {/* <MenuItem onClick={handleMenuClose}> </MenuItem>
-        <MenuItem onClick={handleMenuClose}> </MenuItem> */}
-
       {email ? (
         <Button onClick={handleLogout} ghost>
           Log Out
