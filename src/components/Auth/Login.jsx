@@ -1,87 +1,27 @@
-import React from "react";
-import { useAuth } from "../../contexts/authContext";
-import "./Login.css";
+import { Modal, Button } from "react-bootstrap";
+import LoginModal from "./LoginModal";
 
-const Login = () => {
-  const {
-    email,
-    setEmail,
-    password,
-    setPassword,
-    handleLogin,
-    handleSignUp,
-    hasAccount,
-    setHasAccount,
-    emailError,
-    passwordError,
-  } = useAuth();
+function Login(props) {
   return (
-    <>
-      <section className="login">
-        <div className="login-container">
-          <label className="auth-label">Email</label>
-          <input
-            className="auth-input"
-            type="text"
-            autoFocus
-            required
-            value={email}
-            onChange={(e) => {
-              setEmail(e.target.value);
-            }}
-          />
-          <p className="error-msg">{emailError}</p>
-
-          <label className="auth-label">Password</label>
-          <input
-            className="auth-input"
-            type="password"
-            autoFocus
-            required
-            value={password}
-            onChange={(e) => {
-              setPassword(e.target.value);
-            }}
-          />
-          <p className="error-msg">{passwordError}</p>
-
-          <div className="btn-container">
-            {hasAccount ? (
-              <>
-                <button className="auth-btn" onClick={handleLogin}>
-                  Sign in
-                </button>
-                <p className="auth-text">
-                  Don't have an account?
-                  <span
-                    className="auth-span"
-                    onClick={() => setHasAccount(!hasAccount)}
-                  >
-                    Sign up
-                  </span>
-                </p>
-              </>
-            ) : (
-              <>
-                <button className="auth-btn" onClick={handleSignUp}>
-                  Sign up
-                </button>
-                <p className="auth-text">
-                  Have an account?
-                  <span
-                    className="auth-span"
-                    onClick={() => setHasAccount(!hasAccount)}
-                  >
-                    Sign in
-                  </span>
-                </p>
-              </>
-            )}
-          </div>
-        </div>
-      </section>
-    </>
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Log In
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <LoginModal />
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
   );
-};
+}
 
 export default Login;
