@@ -8,9 +8,10 @@ import EditProduct from "./components/EditProduct/EditProduct";
 import Home from "./components/Home/Home";
 import ProductsList from "./components/ProductsList/ProductsList";
 import { useAuth } from "./contexts/authContext";
-import AdminPage from "./pages/AdminPage";
-import Error404 from "./pages/Error404";
-import Payment from "./components/Cart/Payment";
+import AdminPage from "./components/pages/AdminPage";
+// import Error404 from "./pages/Error404";
+import Error404 from "./components/pages/Error404";
+import Paym from "./components/Cart/Paym";
 import Favorites from "./components/Favorites/Favorites";
 import PayForm from "./components/Cart/PayForm";
 import Planner from "./components/Planner/Planner";
@@ -50,8 +51,8 @@ const Routing = () => {
       id: 7,
     },
     {
-      link: "/payment",
-      element: <Payment />,
+      link: "/paym",
+      element: <Paym />,
       id: 8,
     },
     {

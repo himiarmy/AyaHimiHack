@@ -1,7 +1,7 @@
 import React, { useContext, useEffect} from "react";
 import { List } from "antd";
 import { favoritesContext } from "../../contexts/favoritesContext";
-import FavoritesItem from "./FavouritesItem";
+import FavoritesItem from "./FavoritesItem";
 
 
 const Favorites = () => {
